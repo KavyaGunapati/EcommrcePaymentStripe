@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "QbfHVlxkVoA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GunapatiKavya\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\GunapatiKavya\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\GunapatiKavya\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\Interfaces.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\Interfaces.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

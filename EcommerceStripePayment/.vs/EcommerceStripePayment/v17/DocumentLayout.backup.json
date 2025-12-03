@@ -1,0 +1,475 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\ecommercestripepayment\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|solutionrelative:profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\ecommercestripepayment\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F353ADF-53E0-4CAC-8C7F-6AC39FFAB54C}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\managers\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F353ADF-53E0-4CAC-8C7F-6AC39FFAB54C}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\managers\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F0F9E5-291C-4342-A20A-8C75FB6B4F52}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\interfaces\\imanager\\iproductmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5868BFFC-93F7-4FF6-A4EF-18EB4DBFE6C6}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\dataaccess\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\ecommercestripepayment\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\ecommercestripepayment\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F353ADF-53E0-4CAC-8C7F-6AC39FFAB54C}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\managers\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\ecommercestripepayment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5868BFFC-93F7-4FF6-A4EF-18EB4DBFE6C6}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\dataaccess\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F353ADF-53E0-4CAC-8C7F-6AC39FFAB54C}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\managers\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC913AA-0F4B-4102-B852-0115F1DB1079}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\models\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F0F9E5-291C-4342-A20A-8C75FB6B4F52}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\interfaces\\imanager\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5868BFFC-93F7-4FF6-A4EF-18EB4DBFE6C6}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\dataaccess\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F0F9E5-291C-4342-A20A-8C75FB6B4F52}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\interfaces\\imanager\\iordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5868BFFC-93F7-4FF6-A4EF-18EB4DBFE6C6}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\dataaccess\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC913AA-0F4B-4102-B852-0115F1DB1079}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\models\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F0F9E5-291C-4342-A20A-8C75FB6B4F52}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\interfaces\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC913AA-0F4B-4102-B852-0115F1DB1079}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC913AA-0F4B-4102-B852-0115F1DB1079}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\models\\dtos\\applicationuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC913AA-0F4B-4102-B852-0115F1DB1079}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\models\\dtos\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC913AA-0F4B-4102-B852-0115F1DB1079}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\models\\dtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\ecommercestripepayment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{014A5C26-8A35-46E5-80AB-F7DAFE1F38B5}|EcommerceStripePayment.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5868BFFC-93F7-4FF6-A4EF-18EB4DBFE6C6}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\dataaccess\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC913AA-0F4B-4102-B852-0115F1DB1079}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\models\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5868BFFC-93F7-4FF6-A4EF-18EB4DBFE6C6}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\dataaccess\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5868BFFC-93F7-4FF6-A4EF-18EB4DBFE6C6}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\dataaccess\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5868BFFC-93F7-4FF6-A4EF-18EB4DBFE6C6}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\ecommercestrippayment\\dataaccess\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Managers\\ProductManager.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Managers\\ProductManager.cs",
+              "RelativeToolTip": "..\\Managers\\ProductManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:28:15.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\Payment.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:26:35.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\IManager\\IProductManager.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IManager\\IProductManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\IManager\\IProductManager.cs",
+              "RelativeToolTip": "..\\Interfaces\\IManager\\IProductManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:35:26.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Managers\\AuthManager.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Managers\\AuthManager.cs",
+              "RelativeToolTip": "..\\Managers\\AuthManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:51:11.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwFgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:46:41.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:09:51.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:59:08.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:30:37.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Managers\\OrderManager.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Managers\\OrderManager.cs",
+              "RelativeToolTip": "..\\Managers\\OrderManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:00:52.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwBUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:07:59.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:53:13.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Managers\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Managers\\Services\\TokenService.cs",
+              "RelativeToolTip": "..\\Managers\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:42:09.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\Order.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:25:27.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\IManager\\IOrderManager.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IManager\\IOrderManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\IManager\\IOrderManager.cs",
+              "RelativeToolTip": "..\\Interfaces\\IManager\\IOrderManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:38:14.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:26:16.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:02:58.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\OrderItemDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:03:40.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\IManager\\IAuthManager.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IManager\\IAuthManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\IManager\\IAuthManager.cs",
+              "RelativeToolTip": "..\\Interfaces\\IManager\\IAuthManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:28:12.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:52:04.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:02:30.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\Result.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\Result.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\Result.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:28:53.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\ApplicationUserDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\ApplicationUserDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\ApplicationUserDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\ApplicationUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:55:47.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\EcommerceStripePayment\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-02T12:31:57.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RefreshTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\RefreshTokenDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\RefreshTokenDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\RefreshTokenDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\RefreshTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:06:35.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\Models\\DTOs\\PaymentDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\PaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:04:00.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:43:50.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:27:45.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Entities\\Product.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:25:04.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\EcommerceStripPayment\\DataAccess\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "..\\DataAccess\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:22:00.4Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
