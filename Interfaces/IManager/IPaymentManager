@@ -1,0 +1,8 @@
+namespace Interfaces.IManager
+{
+    public interface IPaymentManager
+    {
+        Task<(string PaymentIntentId, string ClientSecret)> CreatePaymentIntentAsync(int orderId, decimal amount);
+        Task HandleWebhookAsync(string json, string signatureHeader);
+    }
+}
