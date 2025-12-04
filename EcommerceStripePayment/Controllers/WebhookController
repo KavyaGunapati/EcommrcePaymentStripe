@@ -1,0 +1,25 @@
+using Interfaces.IManager;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace EcommerceStripePayment.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class WebhookController : ControllerBase
+    {
+        private readonly IPaymentManager _paymentManager;
+        public WebhookController(IPaymentManager paymentManager)
+        {
+            _paymentManager = paymentManager;
+        }
+        [HttpPost]
+        public async Task<IActionResult> Handle()
+        {
+            var json=await new StreamReader(HttpContext.Request.Body).ReadToEndAsync();
+            var signature = Request.Headers["Stripe-Signature"];
+            await _paymentManager.HandleWebhookAsync(json, signature);
+            return Ok();
+        }
+    }
+}
