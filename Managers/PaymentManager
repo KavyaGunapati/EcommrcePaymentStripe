@@ -1,0 +1,105 @@
+using AutoMapper;
+using DataAccess.Entities;
+using Interfaces.IManager;
+using Interfaces.IRepository;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Core;
+using Stripe;
+
+namespace Managers
+{
+    public class PaymentManager : IPaymentManager
+    {
+
+        private readonly IConfiguration _config;
+        private readonly IGenericRepository<Order> _orderRepo;
+        private readonly IGenericRepository<Payment> _paymentRepo;
+        private readonly ILogger<PaymentManager> _logger;
+
+        private readonly IMapper _mapper;
+        public PaymentManager(
+            IConfiguration config,
+            IGenericRepository<Order> orderRepo,
+            IGenericRepository<Payment> paymentRepo,
+            ILogger<PaymentManager> logger,IMapper mapper)
+        {
+            _config = config;
+            _orderRepo = orderRepo;
+            _paymentRepo = paymentRepo;
+            _logger = logger;
+            _mapper = mapper;
+            StripeConfiguration.ApiKey = _config["Stripe:SecretKey"];
+        }
+
+        public async Task<(string PaymentIntentId, string ClientSecret)> CreatePaymentIntentAsync(int orderId, decimal amount)
+        {
+            var options = new PaymentIntentCreateOptions
+            {
+                Amount = (long)(amount * 100),
+                Currency = _config["Stripe:Currency"] ?? "usd",
+                PaymentMethodTypes = new List<string>{"card"},
+                Metadata=new Dictionary<string, string> { { "oderId",orderId.ToString() } }
+            };
+            var service = new PaymentIntentService();
+            var intent=await service.CreateAsync(options);
+            var payment = new Payment
+            {
+                OrderId = orderId,
+                StripePaymentIntentId = intent.Id,
+                Status = "Pending"
+
+            };
+            await _paymentRepo.AddAsync(payment);
+            _logger.LogInformation("Stripe paymentIntent {IntentId} created for Order {orderId}", intent.Id, orderId);
+            return (intent.Id, intent.ClientSecret);
+        }
+
+        public async Task HandleWebhookAsync(string json, string signatureHeader)
+        {
+            var webhookSecret = _config["Stripe:WebhookSecret"];
+            Event stripeEvent;
+            try
+            {
+                stripeEvent = EventUtility.ConstructEvent(json, signatureHeader, webhookSecret);
+            }
+            catch(Exception ex) 
+            {
+
+                _logger.LogError(ex, "Invalid Stripe webhook signature");
+                throw;
+
+            }
+            if (stripeEvent.Type == "payment_intent.succeeded")
+            {
+                var succeddIntent = stripeEvent.Data.Object as PaymentIntent;
+                await UpdateStatusAsync(succeddIntent!.Id, "Success");
+            }else if(stripeEvent.Type == "payment_intent.payment_failed")
+            {
+                var failedIntent=stripeEvent.Data.Object as PaymentIntent;
+                await UpdateStatusAsync(failedIntent!.Id, "Failed");
+            }
+        }
+
+        private async Task UpdateStatusAsync(string intentId, string status)
+        {
+            var payment = (await _paymentRepo.GetAllAsync()).FirstOrDefault(p => p.StripePaymentIntentId == intentId);
+            if (payment == null)
+            {
+                _logger.LogWarning("Payment record not found for Intent {IntentId}", intentId);
+                return;
+            }
+            payment.Status = status;
+            await _paymentRepo.Update(payment);
+            var order=await _orderRepo.GetByIdAsync(payment.OrderId);
+            if (order != null)
+            {
+                order.Status = status == "Succeeded" ? "Paid" : "Failed";
+                await _orderRepo.Update(order);
+            }
+            _logger.LogInformation("Payment {IntentId} updated to {Status}, Order {OrderId} set to {OrderStatus}", intentId, payment.OrderId, order?.Status);
+      }
+}
+}
